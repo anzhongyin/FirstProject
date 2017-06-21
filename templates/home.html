@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:>
+<div style="margin-left: auto;margin-right: auto;">
+<head>
+    <body background="http://www.quazero.com/uploads/allimg/140411/1-140411151215-50.jpg"  width="70%" height="100 %">
+</body>
+    <meta charset="utf-8">
+    <title>信息分析团队</title>
+ <h2 align="center">信息分析团队欢迎你</h2>
+</head>
+<table border="0" cellspacing="40" align="renter">
+
+<caption>信息分析团队成员表</caption>
+<pre>
+               <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+            <th>年级</th>
+            <th>专业</th>
+              </tr>
+            {% for foo in personlist %}
+              <tr align=>
+            <td>{{foo.name}}</td>
+            <td>{{foo.sex}}</td>
+            <td>{{foo.sex}}</td>
+            <td>{{foo.grade}}</td>
+            <td>{{foo.major}}</td>
+              </tr>
+
+            {% endfor %}
+</pre>
+</table>
+</div>
+</body>
+</html>
